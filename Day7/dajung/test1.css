@@ -1,0 +1,55 @@
+.wrap{
+  margin: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__image{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.main__image img{
+  width: 100%;
+  min-width: 769px;
+}
+.main__image h1{
+  position: absolute;
+  top: 5rem;
+}
+#main__image-text {
+  position: absolute;
+  padding: 0 2rem;
+  top: 10rem;
+}
+.main__buy-button{
+  cursor: pointer;
+  position: absolute;
+  top: 17rem;
+  background-color: white;
+  padding: 1.5rem 3rem;
+}
+.main__buy-button:hover{
+  background-color:  rgb(213, 213, 213);
+}
+.main__buy-button a{
+  text-decoration-line: none;
+  color: black;
+  font-size: 1.5rem;
+}
+.main__description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  background-color: rgb(236, 236, 236);
+  padding: 1rem;
+  position: absolute;
+  bottom: -8rem;
+  color: black;
+}
