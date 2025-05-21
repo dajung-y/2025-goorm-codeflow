@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+.modal__overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal__container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.container__close {
+  text-align: right;
+}
+
+.container__close button {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.container__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.container__content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.container__content h2 {
+  margin: 0.5;
+}
+
+.container__content p {
+  margin: 0 0 5px 0;
+}
+
+.container__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__link a {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  width: 70%;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.container__link #link-signup {
+  background-color: rgb(83, 178, 255);
+  color: white;
+}
+
+.container__link #link-login {
+  background-color: white;
+  color: rgb(83, 178, 255);
+}
+
+#link-login:hover {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(83, 178, 255) 0px 0px 0px 1px;
+}
