@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>모달</title>
+    <link rel="stylesheet" href="/css/modal.css" />
+  </head>
+  <body>
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__container">
+        <div class="container__close">
+          <button id="colse-box" onclick="handleClose()">X</button>
+        </div>
+        <div class="container__content">
+          <img
+            src="https://i.pinimg.com/736x/8b/a2/83/8ba283897b9ad414c929ca1a8630b4bd.jpg"
+            alt="프로필이미지"
+          />
+          <h2>이 게시물을 확인해보세요</h2>
+          <p>가입하거나 로그인하여 <b>asdfggg</b>님의 게시물을 확인해보세요.</p>
+          <p id="content-text">
+            계속하면 instagram <b>이용 약관</b> 및 <b>개인정보처리방침</b>에
+            동의하게 됩니다
+          </p>
+        </div>
+        <div class="container__link">
+          <a href="/flexEx2.html" id="link-signup">가입하기</a>
+          <a href="/flexEx2.html" id="link-login">로그인</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/modal.js"></script>
+</html>
