@@ -1,0 +1,80 @@
+
+.cart{
+  max-width: 1200px;
+  height: 100vh;
+}
+.cart__main{
+  display: flex;
+  margin-top: 2rem;
+}
+
+
+
+.cart__order__list{
+  flex-grow: 7;
+  margin-right: 1rem;
+}
+
+.cart__list__box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+}
+
+.product__box{
+  display: flex;
+  gap: 10px;
+}
+
+.product__box input{
+  width: 20px;
+}
+
+.product__box img{
+  width: 250px;
+  height: 250px;
+}
+
+.product__detail{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+.cart__price__box{
+  position: relative;
+  flex-grow:3 ;
+}
+
+.cart__order__box{
+  position: sticky;
+  top: 0;
+  text-align: center;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.order__info__title{
+  text-align: left;
+}
+
+.order__info__box{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  height: 150px;
+  padding: 10px;
+}
+
+.order__info__price{
+  text-align: right;
+}
+
