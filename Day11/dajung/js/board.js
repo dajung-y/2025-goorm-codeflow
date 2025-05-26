@@ -18,16 +18,18 @@ function createPost() {
     deleteBtn.innerText= "삭제";
     console.log(`postListTitle 내용: ${postListTitle.value}, postListContent 내용: ${postListContent.value}`);
 
-    // post 삭제 버튼
-    deleteBtn.addEventListener('click',function(){
-      console.log('게시글 삭제');
-    })
-
     const postDiv = document.createElement('div');
     postList.appendChild(postDiv);
     postDiv.appendChild(postListTitle);
     postDiv.appendChild(postListContent);
     postDiv.appendChild(deleteBtn);
+    postDiv.style.border = '1px solid lightpink'
+
+    // post 삭제 버튼
+    deleteBtn.addEventListener('click',function(){
+      console.log('게시글 삭제');
+      postDiv.remove();
+    })
 
     postTitle.value="";
     postContent.value="";
