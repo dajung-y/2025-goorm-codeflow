@@ -31,13 +31,14 @@ const assign3Btn = document.getElementById('assign3-btn');
 
 assign3Btn.addEventListener('click', () => {
   const input = document.getElementById('assign3-input');
-  const newDiv = document.createElement('div');
-  const p = document.createElement('p');
-  p.innerText = input.value;
-  console.log(p);
-
-  newDiv.appendChild(p);
-  assign3Div.appendChild(newDiv);
-  newDiv.style.border = '1px solid black';
-
+  if(input.value !==""){
+    const newDiv = document.createElement('div');
+    const p = document.createElement('p');
+    p.innerText = input.value;
+    console.log(p);
+  
+    newDiv.appendChild(p);
+    assign3Div.appendChild(newDiv);
+    newDiv.style.border = '1px solid black';
+  }
 })
