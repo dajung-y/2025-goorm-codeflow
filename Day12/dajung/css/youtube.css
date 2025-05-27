@@ -1,0 +1,45 @@
+.header{
+  display: flex;
+  align-items: center;
+}
+
+.header h1{
+  margin-left: 0.3rem;
+}
+
+.bi-youtube{
+  font-size: 2.5rem;
+  color: red;
+}
+
+.play__section{
+  width: 100%;
+  height: 50vh;
+}
+
+#youtube{
+  width: 80%;
+  height: 80%;
+}
+
+.comment__elm{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  background-color: rgb(231, 244, 255);
+  border-radius: 10px;
+  margin: 0.5rem 0;
+}
+
+.comment__elm p{
+  margin-bottom: 0.3rem;
+}
+
+.delete__btn{
+  width: 3rem;
+  margin-top: 0.3rem;
+  background-color: rgb(237, 104, 104);
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
