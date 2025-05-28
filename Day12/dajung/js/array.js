@@ -48,7 +48,9 @@ console.log(people);
 
 // 9번
 
-
+let months = ["Jan", "March", "April", "June"];
+months.splice(2,0,"May");
+console.log(months);
 
 // 10번
 
