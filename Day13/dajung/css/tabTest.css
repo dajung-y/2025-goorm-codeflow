@@ -1,0 +1,44 @@
+.container{
+  padding: 1rem;
+  margin: 0;
+  border: 2px solid plum;
+}
+
+.tab__container{
+  border-top: 3px solid rgb(60, 95, 175);
+
+}
+
+.tab__list{
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.tab__btn{
+  flex:1;
+  padding: 1rem 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  color: rgb(33, 61, 125);
+  background-color: rgb(211, 224, 253);
+  cursor: pointer;
+}
+
+/* 마진상쇄 margin: -값; */
+
+.bg-color{
+  background-color: white;
+  border-bottom: none;
+}
+
+.tab__content{
+  display: none;
+  padding-top: 1rem;
+}
+
+.show{
+  display: block;
+}
