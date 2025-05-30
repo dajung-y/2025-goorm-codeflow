@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>애니메이션</title>
+  <link rel="stylesheet" href="../css/animationEx.css">
+  
+</head>
+<body>
+  <h1>애니메이션 배우기</h1>
+
+  <div id="main-bar">
+    <div id="bar">
+      <span id="percent">0%</span>
+    </div>
+  </div>
+  <button id="bar-btn">진행 바 시작</button>
+
+  <div class="area">
+    <p>버튼 클릭시 박스 움직이기</p>
+    <div class="parent" id="box1"></div>
+    <button id="move-btn">움직이기</button>
+  </div>
+
+  <div class="area">
+    <p>버튼 클릭시 박스 확대하기</p>
+    <div class="parent" id="box2"></div>
+    <button id="grow-btn">확대하기</button>
+  </div>
+
+  <div class="area">
+    <p>버튼 클릭시 박스 투명하게</p>
+    <div class="parent" id="box3"></div>
+    <button id="fade-btn">투명하게</button>
+  </div>
+
+  <div class="area">
+    <div class="parent" id="loop-text">
+      💡텍스트 깜빡💡
+    </div>
+  </div>
+
+  <script src="../jquery/jquery-3.7.1.min.js"></script>
+  <script src="../js/animationEx.js"></script>
+</body>
+</html>
