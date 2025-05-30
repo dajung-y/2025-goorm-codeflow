@@ -1,0 +1,50 @@
+.area{
+  border: 2px solid #ccc;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.parent{
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 1rem;
+  left: 0px;
+}
+
+#box1{
+  background-color: rgb(100, 175, 225);
+}
+
+#box2{
+  background-color: rgb(117, 225, 100);
+}
+
+#box3{
+  background-color: rgb(110, 54, 207);
+}
+
+#loop-text{
+  font-weight: bold;
+  width: 10rem;
+}
+
+#main-bar{
+  width: 100vw;
+  height: 2rem;
+  border: 1px solid #ccc;
+  margin: 1rem 0;
+  position: relative;
+}
+
+#bar{
+  width: 0px;
+  height: 100%;
+  background-color: rgb(255, 169, 198);
+}
+ #bar span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
